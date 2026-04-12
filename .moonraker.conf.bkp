@@ -60,3 +60,8 @@ frame_path = /usr/data/printer_data/frames/
 ffmpeg_binary_path = /opt/bin/ffmpeg
 snapshoturl = http://192.168.1.40:4409/webcam/?action=snapshot
 
+[notifier apagar_alexa]
+url = https://www.virtualsmarthome.xyz/url_routine_trigger/activate.php?trigger=1ac514e8-401b-48f7-b71c-171789412b5e&token=1c9588fa-538c-402e-9b19-d15c72e6ead9&response=smartphone
+events = gcode
+body = Apagando impresora
+
